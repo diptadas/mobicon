@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_top_rated"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_top_rated"
+                android:onClick="onButtonClicker"
+                android:text="Top Rated" />
+
+            <Button
+                android:id="@+id/btn_search"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_search"
+                android:onClick="onButtonClicker"
+                android:text="Search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_compare"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_compare"
+                android:onClick="onButtonClicker"
+                android:text="Compare" />
+
+            <Button
+                android:id="@+id/btn_find_shop"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_find_shop"
+                android:onClick="onButtonClicker"
+                android:text="Find Shop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_log"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_login"
+                android:onClick="onButtonClicker"
+                android:text="Log in" />
+
+            <Button
+                android:id="@+id/btn_about"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/ic_about"
+                android:onClick="onButtonClicker"
+                android:text="About" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

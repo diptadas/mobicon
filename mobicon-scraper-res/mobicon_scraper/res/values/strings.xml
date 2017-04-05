@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobiCon</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">MobiCon v2.0.0\nDeveloper: Dipta Das\nInstitute: CUET CSE 11\nFeedback: \ndipta670@gmail.com</string>
+    <string name="connection_error_alert">Unable to connect with the server. Check your internet connection and try again.</string>
+
+</resources>
