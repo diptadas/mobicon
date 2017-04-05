@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+
+
+    <!-- Movie Title -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bashundhara City"
+        android:textSize="@dimen/model"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dip"
+        android:gravity="center_horizontal"
+        android:text="Pantha Path"
+        android:textSize="@dimen/rating" />
+
+    <!-- Genre -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Dhaka"
+        android:textColor="@color/releaseYear"
+        android:textSize="@dimen/releaseYear" />
+
+    <!-- Release Year -->
+
+</RelativeLayout>
